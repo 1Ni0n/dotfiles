@@ -28,3 +28,10 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+
+
+
+mkcd () {
+  mkdir "$1"
+  cd "$1"
+}
